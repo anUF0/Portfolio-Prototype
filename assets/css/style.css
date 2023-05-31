@@ -67,7 +67,10 @@ color: var(---Navy);
 font-size:xx-large;
 margin: 0%;
 text-decoration: underline;
+}
 
+p{
+  padding: 0.5%;
 }
 
 .work{
@@ -86,9 +89,16 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 0.5%;
+}
+
+.center-image img:hover{
+  box-shadow: grey 10px 10px 10px 10px;
+  border-radius: 10%;
 }
 
 .sub-images img{
+  padding:0.5%;
   flex-wrap: wrap;
   flex-direction: row;
   width: 212.5px;
@@ -96,9 +106,18 @@ img{
   border-radius: 15%;
 }
 
+.sub-images img:hover{
+  box-shadow: grey 10px 10px 10px 10px;
+  border-radius: 15%;
+}
 
   footer {
     margin: 5%;
     text-align: left;
     position: end;
+  }
+  
+  footer ul{
+    flex-wrap: wrap;
+    flex-direction: column;
   }
