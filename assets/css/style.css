@@ -1,6 +1,6 @@
 :root {font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(246, 240, 227);
-  ---Header-base: rgb(13, 13, 62);
+  ---Navy: rgb(13, 13, 62);
 }
 
   html {
@@ -8,7 +8,7 @@
   }
 
   header{
-    background-color:var(---Header-base);
+    background-color:var(---Navy);
     color: whitesmoke;
   }
 
@@ -17,6 +17,7 @@
     font-weight: 700;
     line-height: 1.1;
     font-size: 400%;
+    margin-left: 3%;
   }
   
   nav ul {
@@ -27,8 +28,9 @@
     padding: 10px;
   }
 
-  nav a {
+  nav li {
     padding-left: 5%;
+    color: rgb(34, 66, 34);
   }
   
   body {
@@ -44,29 +46,59 @@
   width: 120%;
   color: whitesmoke;
   background-image: linear-gradient(
-    var(---Header-base) 10%,
+    var(---Navy) 10%,
    aqua 100%
   );
   font-size: xx-large;
+  text-indent: 2%;
+}
+/*I'm aware the subtitle is slighly misaligned with my name, this was intentional*/
+
+main{ 
+    margin: 3%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+h3{
+color: var(---Navy);
+font-size:xx-large;
+margin: 0%;
+text-decoration: underline;
+
 }
 
-.About {
-  
+.work{
+  justify-content: center;
 }
+
+img{
+    padding: 20px 10px;
+    border: 2px solid #bfbfbf;
+    background-color: #fff;
+}
+
+.center-image img{
+  width: 850px;
+  border-radius:10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-images img{
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 212.5px;
+  height: 212.5px;
+  border-radius: 15%;
+}
+
 
   footer {
-    margin: 1.5rem;
-    text-align: center;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-  }
-  
-  .justify-center {
-    justify-content: center;
+    margin: 5%;
+    text-align: left;
+    position: end;
   }
