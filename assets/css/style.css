@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 :root {font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(246, 240, 227);
   ---Navy: rgb(13, 13, 62);
@@ -74,6 +78,7 @@ p{
 
 .work{
   justify-content: center;
+  flex-shrink: 10;
 }
 
 img{
@@ -112,6 +117,8 @@ img{
 
 footer {
     margin-top: 5% 0 0 0;
+    display: flex;
+    flex-direction: column;
     position:sticky;
     width: 100%;
     background-image: linear-gradient(
@@ -122,9 +129,17 @@ footer {
     text-indent: 5%;
   }
   
-  footer ul{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: xx-large;
-    text-decoration: underline;
+  footer ul li{
+  font-size: x-large;
+  text-decoration: underline;
+  padding: 10px;
+  text-align: right;
+  margin-right: 5%;
+  }
+
+  @media screen and (max-width: 768px) {
+    main,
+    nav, footer {
+      flex-direction: column;
+    }
   }
