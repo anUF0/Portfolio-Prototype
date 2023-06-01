@@ -37,6 +37,7 @@
     padding-right: 2.5%;
   }
   
+  /*Body styling from one of the week's activities */
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
       Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
@@ -138,6 +139,7 @@ footer {
   margin-right: 5%;
   }
 
+  /*Ajusts all section when page is strunk*/
   @media screen and (max-width: 768px) {
     main,
     nav, footer {

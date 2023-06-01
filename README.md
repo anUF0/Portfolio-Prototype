@@ -1,9 +1,13 @@
 # Prototype Portfolio
+
+## Link
+https://anuf0.github.io/Portfolio-Prototype/#
+
 ## Intent
 For this second challenge of this dev course, we tasked with creating portfolio-style website. One minor hurdle for me, however, is that I do have anything to really show foor myself, coding-wise. So, I moreso looked at this project with a more technical focus, not really caring too much about the actual site's content. That is to say, I had a little bit of fun with this one.
 
 ## Usage
-The tone of the site is fairly open about it beind somewhat farcical, though all the elements should work. The first three nav bar options should snap to each of their relevent headers, with the exepction of the final one, which should inniate a download an older Resume of mine.
+The tone of the site is open about it beind somewhat farcical, though all the elements should work as intentented. The first three nav bar options should snap to each of their relevent headers, with the exepction of the final one, which should inniate a download an older Resume of mine.
 
 The about me section gives some insight into my bacground, but since I have only really begun coding, there is not a lot of pertanent information. Instead, I simply ask my views to have fun and see where the, somewhat electic images take them.
 
