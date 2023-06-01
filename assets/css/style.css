@@ -30,7 +30,6 @@
 
   nav li {
     padding-left: 5%;
-    color: rgb(34, 66, 34);
   }
   
   body {
@@ -111,13 +110,20 @@ img{
   border-radius: 15%;
 }
 
-  footer {
-    margin: 5%;
-    text-align: left;
+footer {
+    margin-top: 5%;
     position: end;
+    background-image: linear-gradient(
+     aqua 0.05%,
+    var(---Navy) 100%
+    );
+    color: whitesmoke;
+    text-indent: 5%;
   }
   
   footer ul{
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    text-decoration: underline;
   }

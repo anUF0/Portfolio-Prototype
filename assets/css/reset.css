@@ -39,3 +39,10 @@ ol,
 ul {
   list-style: none;
 }
+
+a{
+  text-decoration: none;
+  background-color: none;
+  color: whitesmoke;
+}
+/*This sort of defeats the purpose of a 'reset', but it was how I got the text to display the intended colour*/
